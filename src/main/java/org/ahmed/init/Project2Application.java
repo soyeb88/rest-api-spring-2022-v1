@@ -11,3 +11,6 @@ public class Project2Application {
 	}
 
 }
+
+
+// ./startup.sh && tail -f ../logs/catalina.out
