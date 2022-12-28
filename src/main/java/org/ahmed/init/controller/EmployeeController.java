@@ -22,7 +22,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @CrossOrigin(origins="http://localhost:3000/")
 @RestController
-@RequestMapping(value="/api/v1/")
+//@RequestMapping(value="/api/v1/")
 public class EmployeeController {
 	
 	@Autowired
