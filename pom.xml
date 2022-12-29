@@ -16,6 +16,7 @@
 	<packaging>war</packaging>
 	<properties>
 		<java.version>19</java.version>
+		<start-class>org.ahmed.init.Project2Application</start-class>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -57,10 +58,10 @@
 
 	<build>
 		<plugins>
-			<!-- <plugin>
+			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin> -->
+			</plugin>
 		</plugins>
 	</build>
 
