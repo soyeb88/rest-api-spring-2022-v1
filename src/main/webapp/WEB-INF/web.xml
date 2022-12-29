@@ -10,7 +10,7 @@
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
   
-  <servlet>
+ <!--  <servlet>
     <servlet-name>My Servlet</servlet-name>
     <servlet-class>org.glassfish.jersey.servlet.ServletContainer</servlet-class>
     <init-param>
@@ -22,5 +22,5 @@
 	<servlet-mapping>
     	<servlet-name>My Servlet</servlet-name>
     	<url-pattern>/api/*</url-pattern>
-	</servlet-mapping>
+	</servlet-mapping> -->
 </web-app>
