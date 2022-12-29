@@ -20,9 +20,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 
-@CrossOrigin(origins="http://localhost:3000/")
+@CrossOrigin(origins="http://localhost:8080/")
 @RestController
-@RequestMapping(value="/rest-api-spring-2022-v1/")
+@RequestMapping(value="/api/v1/")
 public class EmployeeController {
 	
 	@Autowired
