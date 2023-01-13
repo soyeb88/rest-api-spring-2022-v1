@@ -16,7 +16,7 @@
 	<description>Back End Spring Boot</description>
 	<packaging>war</packaging>
 	<properties>
-		<java.version>19</java.version>
+		<java.version>17</java.version>
 		<start-class>org.ahmed.init.Project2Application</start-class>
 	</properties>
 	<dependencies>
