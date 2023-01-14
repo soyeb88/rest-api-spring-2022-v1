@@ -20,9 +20,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 
-//@CrossOrigin(origins="http://localhost:8080/")
-//@CrossOrigin(origins="http://192.168.1.46/")
-@CrossOrigin(origins="http://98.15.45.185:9090/")
+//@CrossOrigin(origins="http://localhost:8080/")  //-->Local Machin
+//@CrossOrigin(origins="http://192.168.1.46/")	  //-->Local Router
+@CrossOrigin(origins="http://98.15.45.185:9090/") //-->Internet
 
 @RestController
 @RequestMapping(value="/api/v1/")
