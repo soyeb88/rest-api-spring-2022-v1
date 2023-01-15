@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import org.ahmed.init.Project2Application;
 import org.ahmed.init.exception.ResourceNotFoundException;
 import org.ahmed.init.model.Employee;
 import org.ahmed.init.repository.EmployeeRepository;
@@ -19,6 +20,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 //@CrossOrigin(origins="http://localhost:8080/")  //-->Local Machin
 //@CrossOrigin(origins="http://192.168.1.46/")	  //-->Local Router
@@ -28,12 +31,15 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping(value="/api/v1/")
 public class EmployeeController {
 	
+	private static final Logger LOGGER = LoggerFactory.getLogger(Project2Application.class);
+	
 	@Autowired
 	private EmployeeRepository employeeRepository;
 	
 	//get all employees
 	@GetMapping(value="/employees")
 	public List<Employee> getAllEmployee(){
+		LOGGER.info("List Data");
 		return employeeRepository.findAll();
 	}
 	

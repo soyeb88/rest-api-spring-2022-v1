@@ -1,0 +1,233 @@
+2023-Jan-14 23:00:07 [restartedMain] INFO  o.a.i.Project2Application                          - Starting Project2Application using Java 19.0.1 with PID 58466 (/Users/soyebahmed/Desktop/IT-Sector/Project2022/Back-End-FrameWork/Spring-FrameWork/Project-2/target/classes started by soyebahmed in /Users/soyebahmed/Desktop/IT-Sector/Project2022/Back-End-FrameWork/Spring-FrameWork/Project-2)
+2023-Jan-14 23:00:07 [restartedMain] INFO  o.a.i.Project2Application                          - No active profile set, falling back to 1 default profile: "default"
+2023-Jan-14 23:00:08 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-Jan-14 23:00:08 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 32 ms. Found 1 JPA repository interfaces.
+2023-Jan-14 23:00:08 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat initialized with port(s): 8082 (http)
+2023-Jan-14 23:00:08 [restartedMain] INFO  o.a.c.h.Http11NioProtocol                          - Initializing ProtocolHandler ["http-nio-8082"]
+2023-Jan-14 23:00:08 [restartedMain] INFO  o.a.c.c.StandardService                            - Starting service [Tomcat]
+2023-Jan-14 23:00:08 [restartedMain] INFO  o.a.c.c.StandardEngine                             - Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-Jan-14 23:00:08 [restartedMain] INFO  o.a.c.c.C.[.[.[/]                                  - Initializing Spring embedded WebApplicationContext
+2023-Jan-14 23:00:08 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 706 ms
+2023-Jan-14 23:00:08 [restartedMain] INFO  o.h.j.i.u.LogHelper                                - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-Jan-14 23:00:08 [restartedMain] WARN  o.h.o.deprecation                                  - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-Jan-14 23:00:08 [restartedMain] INFO  c.z.h.HikariDataSource                             - HikariPool-2 - Starting...
+2023-Jan-14 23:00:08 [restartedMain] INFO  c.z.h.p.HikariPool                                 - HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@99aff0f
+2023-Jan-14 23:00:08 [restartedMain] INFO  c.z.h.HikariDataSource                             - HikariPool-2 - Start completed.
+2023-Jan-14 23:00:08 [restartedMain] INFO  SQL dialect                                        - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-Jan-14 23:00:08 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-Jan-14 23:00:08 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-Jan-14 23:00:08 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-Jan-14 23:00:08 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping              - Adding welcome page: ServletContext resource [/index.html]
+2023-Jan-14 23:00:08 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2023-Jan-14 23:00:08 [restartedMain] INFO  o.a.c.h.Http11NioProtocol                          - Starting ProtocolHandler ["http-nio-8082"]
+2023-Jan-14 23:00:08 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat started on port(s): 8082 (http) with context path ''
+2023-Jan-14 23:00:08 [restartedMain] INFO  o.a.i.Project2Application                          - Started Project2Application in 1.251 seconds (process running for 262.788)
+2023-Jan-14 23:00:08 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener  - Condition evaluation unchanged
+2023-Jan-14 23:00:10 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-Jan-14 23:00:10 [Thread-7] INFO  o.a.c.h.Http11NioProtocol                          - Pausing ProtocolHandler ["http-nio-8082"]
+2023-Jan-14 23:00:10 [Thread-7] INFO  o.a.c.c.StandardService                            - Stopping service [Tomcat]
+2023-Jan-14 23:00:10 [Thread-7] INFO  o.a.c.h.Http11NioProtocol                          - Stopping ProtocolHandler ["http-nio-8082"]
+2023-Jan-14 23:00:10 [Thread-7] INFO  o.a.c.h.Http11NioProtocol                          - Destroying ProtocolHandler ["http-nio-8082"]
+2023-Jan-14 23:00:10 [Thread-7] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-Jan-14 23:00:10 [Thread-7] INFO  c.z.h.HikariDataSource                             - HikariPool-2 - Shutdown initiated...
+2023-Jan-14 23:00:10 [Thread-7] INFO  c.z.h.HikariDataSource                             - HikariPool-2 - Shutdown completed.
+2023-Jan-14 23:00:10 [restartedMain] INFO  o.a.i.Project2Application                          - Starting Project2Application using Java 19.0.1 with PID 58466 (/Users/soyebahmed/Desktop/IT-Sector/Project2022/Back-End-FrameWork/Spring-FrameWork/Project-2/target/classes started by soyebahmed in /Users/soyebahmed/Desktop/IT-Sector/Project2022/Back-End-FrameWork/Spring-FrameWork/Project-2)
+2023-Jan-14 23:00:10 [restartedMain] INFO  o.a.i.Project2Application                          - No active profile set, falling back to 1 default profile: "default"
+2023-Jan-14 23:00:10 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-Jan-14 23:00:10 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 13 ms. Found 1 JPA repository interfaces.
+2023-Jan-14 23:00:10 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat initialized with port(s): 8082 (http)
+2023-Jan-14 23:00:10 [restartedMain] INFO  o.a.c.h.Http11NioProtocol                          - Initializing ProtocolHandler ["http-nio-8082"]
+2023-Jan-14 23:00:10 [restartedMain] INFO  o.a.c.c.StandardService                            - Starting service [Tomcat]
+2023-Jan-14 23:00:10 [restartedMain] INFO  o.a.c.c.StandardEngine                             - Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-Jan-14 23:00:10 [restartedMain] INFO  o.a.c.c.C.[.[.[/]                                  - Initializing Spring embedded WebApplicationContext
+2023-Jan-14 23:00:10 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 296 ms
+2023-Jan-14 23:00:10 [restartedMain] INFO  o.h.j.i.u.LogHelper                                - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-Jan-14 23:00:10 [restartedMain] WARN  o.h.o.deprecation                                  - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-Jan-14 23:00:10 [restartedMain] INFO  c.z.h.HikariDataSource                             - HikariPool-3 - Starting...
+2023-Jan-14 23:00:10 [restartedMain] INFO  c.z.h.p.HikariPool                                 - HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@69c41a92
+2023-Jan-14 23:00:10 [restartedMain] INFO  c.z.h.HikariDataSource                             - HikariPool-3 - Start completed.
+2023-Jan-14 23:00:10 [restartedMain] INFO  SQL dialect                                        - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-Jan-14 23:00:10 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-Jan-14 23:00:10 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-Jan-14 23:00:10 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-Jan-14 23:00:10 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping              - Adding welcome page: ServletContext resource [/index.html]
+2023-Jan-14 23:00:10 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2023-Jan-14 23:00:10 [restartedMain] INFO  o.a.c.h.Http11NioProtocol                          - Starting ProtocolHandler ["http-nio-8082"]
+2023-Jan-14 23:00:10 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat started on port(s): 8082 (http) with context path ''
+2023-Jan-14 23:00:10 [restartedMain] INFO  o.a.i.Project2Application                          - Started Project2Application in 0.722 seconds (process running for 264.982)
+2023-Jan-14 23:00:10 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener  - Condition evaluation unchanged
+2023-Jan-14 23:00:44 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-Jan-14 23:00:44 [Thread-11] INFO  o.a.c.h.Http11NioProtocol                          - Pausing ProtocolHandler ["http-nio-8082"]
+2023-Jan-14 23:00:44 [Thread-11] INFO  o.a.c.c.StandardService                            - Stopping service [Tomcat]
+2023-Jan-14 23:00:44 [Thread-11] INFO  o.a.c.h.Http11NioProtocol                          - Stopping ProtocolHandler ["http-nio-8082"]
+2023-Jan-14 23:00:44 [Thread-11] INFO  o.a.c.h.Http11NioProtocol                          - Destroying ProtocolHandler ["http-nio-8082"]
+2023-Jan-14 23:00:44 [Thread-11] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-Jan-14 23:00:44 [Thread-11] INFO  c.z.h.HikariDataSource                             - HikariPool-3 - Shutdown initiated...
+2023-Jan-14 23:00:44 [Thread-11] INFO  c.z.h.HikariDataSource                             - HikariPool-3 - Shutdown completed.
+2023-Jan-14 23:00:44 [restartedMain] INFO  o.a.i.Project2Application                          - Starting Project2Application using Java 19.0.1 with PID 58466 (/Users/soyebahmed/Desktop/IT-Sector/Project2022/Back-End-FrameWork/Spring-FrameWork/Project-2/target/classes started by soyebahmed in /Users/soyebahmed/Desktop/IT-Sector/Project2022/Back-End-FrameWork/Spring-FrameWork/Project-2)
+2023-Jan-14 23:00:44 [restartedMain] INFO  o.a.i.Project2Application                          - No active profile set, falling back to 1 default profile: "default"
+2023-Jan-14 23:00:45 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-Jan-14 23:00:45 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 30 ms. Found 1 JPA repository interfaces.
+2023-Jan-14 23:00:45 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat initialized with port(s): 8082 (http)
+2023-Jan-14 23:00:45 [restartedMain] INFO  o.a.c.h.Http11NioProtocol                          - Initializing ProtocolHandler ["http-nio-8082"]
+2023-Jan-14 23:00:45 [restartedMain] INFO  o.a.c.c.StandardService                            - Starting service [Tomcat]
+2023-Jan-14 23:00:45 [restartedMain] INFO  o.a.c.c.StandardEngine                             - Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-Jan-14 23:00:45 [restartedMain] INFO  o.a.c.c.C.[.[.[/]                                  - Initializing Spring embedded WebApplicationContext
+2023-Jan-14 23:00:45 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 476 ms
+2023-Jan-14 23:00:45 [restartedMain] INFO  o.h.j.i.u.LogHelper                                - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-Jan-14 23:00:45 [restartedMain] WARN  o.h.o.deprecation                                  - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-Jan-14 23:00:45 [restartedMain] INFO  c.z.h.HikariDataSource                             - HikariPool-4 - Starting...
+2023-Jan-14 23:00:45 [restartedMain] INFO  c.z.h.p.HikariPool                                 - HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@714227fd
+2023-Jan-14 23:00:45 [restartedMain] INFO  c.z.h.HikariDataSource                             - HikariPool-4 - Start completed.
+2023-Jan-14 23:00:45 [restartedMain] INFO  SQL dialect                                        - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-Jan-14 23:00:45 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-Jan-14 23:00:45 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-Jan-14 23:00:45 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-Jan-14 23:00:45 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping              - Adding welcome page: ServletContext resource [/index.html]
+2023-Jan-14 23:00:45 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2023-Jan-14 23:00:45 [restartedMain] INFO  o.a.c.h.Http11NioProtocol                          - Starting ProtocolHandler ["http-nio-8082"]
+2023-Jan-14 23:00:45 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat started on port(s): 8082 (http) with context path ''
+2023-Jan-14 23:00:45 [restartedMain] INFO  o.a.i.Project2Application                          - Started Project2Application in 0.934 seconds (process running for 299.728)
+2023-Jan-14 23:00:45 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener  - Condition evaluation unchanged
+2023-Jan-14 23:00:48 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2023-Jan-14 23:00:48 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.h.Http11NioProtocol                          - Pausing ProtocolHandler ["http-nio-8082"]
+2023-Jan-14 23:00:48 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.c.StandardService                            - Stopping service [Tomcat]
+2023-Jan-14 23:00:48 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.h.Http11NioProtocol                          - Stopping ProtocolHandler ["http-nio-8082"]
+2023-Jan-14 23:00:48 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.h.Http11NioProtocol                          - Destroying ProtocolHandler ["http-nio-8082"]
+2023-Jan-14 23:00:48 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-Jan-14 23:00:48 [RMI TCP Connection(2)-127.0.0.1] INFO  c.z.h.HikariDataSource                             - HikariPool-4 - Shutdown initiated...
+2023-Jan-14 23:00:48 [RMI TCP Connection(2)-127.0.0.1] INFO  c.z.h.HikariDataSource                             - HikariPool-4 - Shutdown completed.
+2023-Jan-14 23:01:00 [restartedMain] INFO  o.a.i.Project2Application                          - Starting Project2Application using Java 19.0.1 with PID 58852 (/Users/soyebahmed/Desktop/IT-Sector/Project2022/Back-End-FrameWork/Spring-FrameWork/Project-2/target/classes started by soyebahmed in /Users/soyebahmed/Desktop/IT-Sector/Project2022/Back-End-FrameWork/Spring-FrameWork/Project-2)
+2023-Jan-14 23:01:00 [restartedMain] INFO  o.a.i.Project2Application                          - No active profile set, falling back to 1 default profile: "default"
+2023-Jan-14 23:01:00 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-Jan-14 23:01:00 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-Jan-14 23:01:01 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-Jan-14 23:01:01 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 58 ms. Found 1 JPA repository interfaces.
+2023-Jan-14 23:01:01 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat initialized with port(s): 8082 (http)
+2023-Jan-14 23:01:01 [restartedMain] INFO  o.a.c.h.Http11NioProtocol                          - Initializing ProtocolHandler ["http-nio-8082"]
+2023-Jan-14 23:01:01 [restartedMain] INFO  o.a.c.c.StandardService                            - Starting service [Tomcat]
+2023-Jan-14 23:01:01 [restartedMain] INFO  o.a.c.c.StandardEngine                             - Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-Jan-14 23:01:02 [restartedMain] INFO  o.a.c.c.C.[.[.[/]                                  - Initializing Spring embedded WebApplicationContext
+2023-Jan-14 23:01:02 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1874 ms
+2023-Jan-14 23:01:02 [restartedMain] INFO  o.h.j.i.u.LogHelper                                - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-Jan-14 23:01:02 [restartedMain] INFO  o.h.Version                                        - HHH000412: Hibernate ORM core version 6.1.5.Final
+2023-Jan-14 23:01:02 [restartedMain] WARN  o.h.o.deprecation                                  - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-Jan-14 23:01:02 [restartedMain] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Starting...
+2023-Jan-14 23:01:03 [restartedMain] INFO  c.z.h.p.HikariPool                                 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@557b6c12
+2023-Jan-14 23:01:03 [restartedMain] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Start completed.
+2023-Jan-14 23:01:03 [restartedMain] INFO  SQL dialect                                        - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-Jan-14 23:01:04 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-Jan-14 23:01:04 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-Jan-14 23:01:04 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-Jan-14 23:01:04 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping              - Adding welcome page: ServletContext resource [/index.html]
+2023-Jan-14 23:01:05 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2023-Jan-14 23:01:05 [restartedMain] INFO  o.a.c.h.Http11NioProtocol                          - Starting ProtocolHandler ["http-nio-8082"]
+2023-Jan-14 23:01:05 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat started on port(s): 8082 (http) with context path ''
+2023-Jan-14 23:01:05 [restartedMain] INFO  o.a.i.Project2Application                          - Started Project2Application in 5.627 seconds (process running for 7.133)
+2023-Jan-14 23:02:36 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[.[.[/]                                  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-Jan-14 23:02:36 [http-nio-8082-exec-1] INFO  o.s.w.s.DispatcherServlet                          - Initializing Servlet 'dispatcherServlet'
+2023-Jan-14 23:02:36 [http-nio-8082-exec-1] INFO  o.s.w.s.DispatcherServlet                          - Completed initialization in 2 ms
+2023-Jan-14 23:03:07 [http-nio-8082-exec-2] INFO  o.a.i.Project2Application                          - List Data
+2023-Jan-14 23:21:53 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-Jan-14 23:21:53 [Thread-5] INFO  o.a.c.h.Http11NioProtocol                          - Pausing ProtocolHandler ["http-nio-8082"]
+2023-Jan-14 23:21:53 [Thread-5] INFO  o.a.c.c.StandardService                            - Stopping service [Tomcat]
+2023-Jan-14 23:21:53 [Thread-5] INFO  o.a.c.c.C.[.[.[/]                                  - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-Jan-14 23:21:53 [Thread-5] INFO  o.a.c.h.Http11NioProtocol                          - Stopping ProtocolHandler ["http-nio-8082"]
+2023-Jan-14 23:21:53 [Thread-5] INFO  o.a.c.h.Http11NioProtocol                          - Destroying ProtocolHandler ["http-nio-8082"]
+2023-Jan-14 23:21:53 [Thread-5] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-Jan-14 23:21:53 [Thread-5] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Shutdown initiated...
+2023-Jan-14 23:21:53 [Thread-5] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Shutdown completed.
+2023-Jan-14 23:21:54 [restartedMain] INFO  o.a.i.Project2Application                          - Starting Project2Application using Java 19.0.1 with PID 58852 (/Users/soyebahmed/Desktop/IT-Sector/Project2022/Back-End-FrameWork/Spring-FrameWork/Project-2/target/classes started by soyebahmed in /Users/soyebahmed/Desktop/IT-Sector/Project2022/Back-End-FrameWork/Spring-FrameWork/Project-2)
+2023-Jan-14 23:21:54 [restartedMain] INFO  o.a.i.Project2Application                          - No active profile set, falling back to 1 default profile: "default"
+2023-Jan-14 23:21:55 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-Jan-14 23:21:55 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 23 ms. Found 1 JPA repository interfaces.
+2023-Jan-14 23:21:55 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat initialized with port(s): 8082 (http)
+2023-Jan-14 23:21:55 [restartedMain] INFO  o.a.c.h.Http11NioProtocol                          - Initializing ProtocolHandler ["http-nio-8082"]
+2023-Jan-14 23:21:55 [restartedMain] INFO  o.a.c.c.StandardService                            - Starting service [Tomcat]
+2023-Jan-14 23:21:55 [restartedMain] INFO  o.a.c.c.StandardEngine                             - Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-Jan-14 23:21:55 [restartedMain] INFO  o.a.c.c.C.[.[.[/]                                  - Initializing Spring embedded WebApplicationContext
+2023-Jan-14 23:21:55 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 983 ms
+2023-Jan-14 23:21:55 [restartedMain] INFO  o.h.j.i.u.LogHelper                                - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-Jan-14 23:21:55 [restartedMain] WARN  o.h.o.deprecation                                  - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-Jan-14 23:21:55 [restartedMain] INFO  c.z.h.HikariDataSource                             - HikariPool-2 - Starting...
+2023-Jan-14 23:21:55 [restartedMain] INFO  c.z.h.p.HikariPool                                 - HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4eec7d75
+2023-Jan-14 23:21:55 [restartedMain] INFO  c.z.h.HikariDataSource                             - HikariPool-2 - Start completed.
+2023-Jan-14 23:21:55 [restartedMain] INFO  SQL dialect                                        - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-Jan-14 23:21:55 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-Jan-14 23:21:55 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-Jan-14 23:21:55 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-Jan-14 23:21:55 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping              - Adding welcome page: ServletContext resource [/index.html]
+2023-Jan-14 23:21:56 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2023-Jan-14 23:21:56 [restartedMain] INFO  o.a.c.h.Http11NioProtocol                          - Starting ProtocolHandler ["http-nio-8082"]
+2023-Jan-14 23:21:56 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat started on port(s): 8082 (http) with context path ''
+2023-Jan-14 23:21:56 [restartedMain] INFO  o.a.i.Project2Application                          - Started Project2Application in 1.67 seconds (process running for 1257.897)
+2023-Jan-14 23:21:56 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener  - Condition evaluation unchanged
+2023-Jan-14 23:22:09 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2023-Jan-14 23:22:09 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.h.Http11NioProtocol                          - Pausing ProtocolHandler ["http-nio-8082"]
+2023-Jan-14 23:22:09 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.c.StandardService                            - Stopping service [Tomcat]
+2023-Jan-14 23:22:09 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.h.Http11NioProtocol                          - Stopping ProtocolHandler ["http-nio-8082"]
+2023-Jan-14 23:22:09 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.h.Http11NioProtocol                          - Destroying ProtocolHandler ["http-nio-8082"]
+2023-Jan-14 23:22:09 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-Jan-14 23:22:09 [RMI TCP Connection(2)-127.0.0.1] INFO  c.z.h.HikariDataSource                             - HikariPool-2 - Shutdown initiated...
+2023-Jan-14 23:22:09 [RMI TCP Connection(2)-127.0.0.1] INFO  c.z.h.HikariDataSource                             - HikariPool-2 - Shutdown completed.
+2023-Jan-14 23:23:15 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils       - Could not detect default configuration classes for test class [org.ahmed.init.Project2ApplicationTests]: Project2ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-Jan-14 23:23:16 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper        - Found @SpringBootConfiguration org.ahmed.init.Project2Application for test class org.ahmed.init.Project2ApplicationTests
+2023-Jan-14 23:23:18 [main] INFO  o.a.i.Project2ApplicationTests                     - Starting Project2ApplicationTests using Java 19.0.1 with PID 60660 (started by soyebahmed in /Users/soyebahmed/Desktop/IT-Sector/Project2022/Back-End-FrameWork/Spring-FrameWork/Project-2)
+2023-Jan-14 23:23:18 [main] INFO  o.a.i.Project2ApplicationTests                     - No active profile set, falling back to 1 default profile: "default"
+2023-Jan-14 23:23:20 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-Jan-14 23:23:20 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 167 ms. Found 1 JPA repository interfaces.
+2023-Jan-14 23:23:21 [main] INFO  o.h.j.i.u.LogHelper                                - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-Jan-14 23:23:22 [main] INFO  o.h.Version                                        - HHH000412: Hibernate ORM core version 6.1.5.Final
+2023-Jan-14 23:23:23 [main] WARN  o.h.o.deprecation                                  - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-Jan-14 23:23:23 [main] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Starting...
+2023-Jan-14 23:23:24 [main] INFO  c.z.h.p.HikariPool                                 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5563bb40
+2023-Jan-14 23:23:24 [main] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Start completed.
+2023-Jan-14 23:23:24 [main] INFO  SQL dialect                                        - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-Jan-14 23:23:27 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-Jan-14 23:23:27 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-Jan-14 23:23:28 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-Jan-14 23:23:29 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping              - Adding welcome page: ServletContext resource [/index.html]
+2023-Jan-14 23:23:29 [main] INFO  o.a.i.Project2ApplicationTests                     - Started Project2ApplicationTests in 12.637 seconds (process running for 18.279)
+2023-Jan-14 23:23:30 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-Jan-14 23:23:30 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Shutdown initiated...
+2023-Jan-14 23:23:30 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Shutdown completed.
+2023-Jan-14 23:24:28 [restartedMain] INFO  o.a.i.Project2Application                          - Starting Project2Application using Java 19.0.1 with PID 60767 (/Users/soyebahmed/Desktop/IT-Sector/Project2022/Back-End-FrameWork/Spring-FrameWork/Project-2/target/classes started by soyebahmed in /Users/soyebahmed/Desktop/IT-Sector/Project2022/Back-End-FrameWork/Spring-FrameWork/Project-2)
+2023-Jan-14 23:24:28 [restartedMain] INFO  o.a.i.Project2Application                          - No active profile set, falling back to 1 default profile: "default"
+2023-Jan-14 23:24:28 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-Jan-14 23:24:28 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-Jan-14 23:24:29 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-Jan-14 23:24:29 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 60 ms. Found 1 JPA repository interfaces.
+2023-Jan-14 23:24:30 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat initialized with port(s): 8082 (http)
+2023-Jan-14 23:24:30 [restartedMain] INFO  o.a.c.h.Http11NioProtocol                          - Initializing ProtocolHandler ["http-nio-8082"]
+2023-Jan-14 23:24:30 [restartedMain] INFO  o.a.c.c.StandardService                            - Starting service [Tomcat]
+2023-Jan-14 23:24:30 [restartedMain] INFO  o.a.c.c.StandardEngine                             - Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-Jan-14 23:24:30 [restartedMain] INFO  o.a.c.c.C.[.[.[/]                                  - Initializing Spring embedded WebApplicationContext
+2023-Jan-14 23:24:30 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1668 ms
+2023-Jan-14 23:24:30 [restartedMain] INFO  o.h.j.i.u.LogHelper                                - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-Jan-14 23:24:30 [restartedMain] INFO  o.h.Version                                        - HHH000412: Hibernate ORM core version 6.1.5.Final
+2023-Jan-14 23:24:30 [restartedMain] WARN  o.h.o.deprecation                                  - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-Jan-14 23:24:30 [restartedMain] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Starting...
+2023-Jan-14 23:24:31 [restartedMain] INFO  c.z.h.p.HikariPool                                 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3d37b0cb
+2023-Jan-14 23:24:31 [restartedMain] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Start completed.
+2023-Jan-14 23:24:31 [restartedMain] INFO  SQL dialect                                        - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-Jan-14 23:24:31 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-Jan-14 23:24:31 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-Jan-14 23:24:32 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-Jan-14 23:24:32 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping              - Adding welcome page: ServletContext resource [/index.html]
+2023-Jan-14 23:24:32 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2023-Jan-14 23:24:32 [restartedMain] INFO  o.a.c.h.Http11NioProtocol                          - Starting ProtocolHandler ["http-nio-8082"]
+2023-Jan-14 23:24:32 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat started on port(s): 8082 (http) with context path ''
+2023-Jan-14 23:24:32 [restartedMain] INFO  o.a.i.Project2Application                          - Started Project2Application in 4.411 seconds (process running for 5.919)
+2023-Jan-14 23:24:49 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[.[.[/]                                  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-Jan-14 23:24:49 [http-nio-8082-exec-1] INFO  o.s.w.s.DispatcherServlet                          - Initializing Servlet 'dispatcherServlet'
+2023-Jan-14 23:24:49 [http-nio-8082-exec-1] INFO  o.s.w.s.DispatcherServlet                          - Completed initialization in 2 ms
+2023-Jan-14 23:24:49 [http-nio-8082-exec-1] INFO  o.a.i.Project2Application                          - List Data
+2023-Jan-14 23:28:45 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2023-Jan-14 23:28:45 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.h.Http11NioProtocol                          - Pausing ProtocolHandler ["http-nio-8082"]
+2023-Jan-14 23:28:45 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.c.StandardService                            - Stopping service [Tomcat]
+2023-Jan-14 23:28:45 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.c.C.[.[.[/]                                  - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-Jan-14 23:28:45 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.h.Http11NioProtocol                          - Stopping ProtocolHandler ["http-nio-8082"]
+2023-Jan-14 23:28:45 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.h.Http11NioProtocol                          - Destroying ProtocolHandler ["http-nio-8082"]
+2023-Jan-14 23:28:45 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-Jan-14 23:28:45 [RMI TCP Connection(2)-127.0.0.1] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Shutdown initiated...
+2023-Jan-14 23:28:45 [RMI TCP Connection(2)-127.0.0.1] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Shutdown completed.
