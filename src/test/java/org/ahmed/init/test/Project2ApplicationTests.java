@@ -1,4 +1,4 @@
-package org.ahmed.init;
+package org.ahmed.init.test;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

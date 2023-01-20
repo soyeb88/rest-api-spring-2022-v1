@@ -8,7 +8,9 @@ import org.ahmed.init.Project2Application;
 import org.ahmed.init.exception.ResourceNotFoundException;
 import org.ahmed.init.model.Employee;
 import org.ahmed.init.repository.EmployeeRepository;
+
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -18,14 +20,16 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-//@CrossOrigin(origins="http://localhost:8080/")  //-->Local Machin
+//@CrossOrigin(origins="http://localhost:3000/") //-->buillt in run
+@CrossOrigin(origins="http://localhost:8080/")  //-->Local Machin
 //@CrossOrigin(origins="http://192.168.1.46/")	  //-->Local Router
-@CrossOrigin(origins="http://98.15.45.185:9090/") //-->Internet
+//@CrossOrigin(origins="http://98.15.45.185:9090/") //-->Internet
 
 @RestController
 @RequestMapping(value="/api/v1/")
@@ -35,21 +39,20 @@ public class EmployeeController {
 	
 	@Autowired
 	private EmployeeRepository employeeRepository;
-	
-	//get all employees
+
 	@GetMapping(value="/employees")
 	public List<Employee> getAllEmployee(){
 		LOGGER.info("List Data");
 		return employeeRepository.findAll();
 	}
-	
-	//create employees rest api
+
+
 	@PostMapping(value="/employees")
+	@ResponseStatus(HttpStatus.CREATED)
 	public Employee createEmployee(@RequestBody Employee employee) {
 		return employeeRepository.save(employee);
 	}
-	
-	//get employee by id rest api
+
 	@GetMapping(value="/employees/{id}")
 	public ResponseEntity<Employee> getEmployeeById(@PathVariable Long id){
 		
@@ -57,8 +60,7 @@ public class EmployeeController {
 				.findById(id).orElseThrow(() -> new ResourceNotFoundException("Employee Not exist with id :" + id));
 		return ResponseEntity.ok(employee);
 	}
-	
-	//update employee by id rest api
+
 		@PutMapping(value="/employees/{id}")
 		public ResponseEntity<Employee> updateEmployeeById(@PathVariable Long id, @RequestBody Employee employeeDetails){
 			
@@ -71,21 +73,23 @@ public class EmployeeController {
 			
 			Employee updatedEmployee = employeeRepository.save(employee);
 			
-			return ResponseEntity.ok(updatedEmployee);
+			return new ResponseEntity<Employee>(updatedEmployee, HttpStatus.OK);
 		}
+
 		
-		//get employee by id rest api
 		@DeleteMapping(value="/employees/{id}")
-		public ResponseEntity<Map<String, Boolean>> deleteEmployee(@PathVariable Long id){
+		public ResponseEntity<String> deleteEmployee(@PathVariable Long id){
+
 			
 			Employee employee = employeeRepository
 					.findById(id).orElseThrow(() -> new ResourceNotFoundException("Employee Not exist with id :" + id));
 			
 			employeeRepository.delete(employee);
 			
-			Map<String, Boolean> response = new HashMap<>();
-			response.put("deleted", Boolean.TRUE);
-			return ResponseEntity.ok(response);
+			//Map<String, Boolean> response = new HashMap<>();
+			//response.put("deleted", Boolean.TRUE);
+			return new ResponseEntity<String>("Employee deleted successfully!.", HttpStatus.OK);
 		}
+
 
 }
