@@ -1,0 +1,21 @@
+version: "3"
+services:
+  employee-jdbc:
+    image: soyeb88/employee-jdbc-2:latest
+    ports:
+      - "8083:8080"
+    networks:
+      - employee-mysql
+    depends_on:
+      - mysqldb
+ 
+  mysqldb:
+    image: soyeb88/mysql:8
+    networks:
+      - employee-mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=Dhaka_866
+      - MYSQL_DATABASE=employee-management  
+
+networks:
+  employee-mysql:
