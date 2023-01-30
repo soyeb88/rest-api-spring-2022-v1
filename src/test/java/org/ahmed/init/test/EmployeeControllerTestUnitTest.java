@@ -20,6 +20,7 @@ import org.junit.jupiter.api.Test;
 import org.ahmed.init.dto.EmployeeDTO;
 import org.ahmed.init.exception.ResourceNotFoundException;
 import org.ahmed.init.model.Employee;
+import org.ahmed.init.repository.EmployeeRepository;
 import org.ahmed.init.service.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
@@ -46,7 +47,6 @@ public class EmployeeControllerTestUnitTest {
 	
 	@MockBean
 	private EmployeeService employeeService;
-	//private EmployeeRepository employeeRepository;
 	
 	@Autowired
 	private ObjectMapper objectMapper;
@@ -180,7 +180,7 @@ public class EmployeeControllerTestUnitTest {
                 .andDo(print());
     }
 
-    /*
+    
  // JUnit test for update employee REST API - negative scenario
     @Test
     @WithMockUser(username = "devs", password = "password", roles = "ADMIN")
@@ -199,10 +199,10 @@ public class EmployeeControllerTestUnitTest {
                 .emailId("ram@gmail.com")
                 .build();
         
-             
+
         given(employeeService.getEmployee(employeeId)).willThrow(new ResourceNotFoundException("message"));
-        given(employeeService.updateEmployee(employeeId, updatedEmployee)).willThrow(new ResourceNotFoundException("message"));
-        	//.willAnswer((invocation)-> invocation.getArgument(0));
+        given(employeeService.updateEmployee(employeeId, updatedEmployee))
+        	.willAnswer((invocation)-> invocation.getArgument(0));
 
         // when -  action or the behaviour that we are going test
         ResultActions response = mockMvc.perform(put("/api/v1/employees/{id}", employeeId)
@@ -213,7 +213,7 @@ public class EmployeeControllerTestUnitTest {
         response.andExpect(status().isNotFound())
                 .andDo(print());
     }
-	*/
+	
     
 // JUnit test for delete employee REST API
     @Test
@@ -236,6 +236,6 @@ public class EmployeeControllerTestUnitTest {
 
 /*
  * JavaDoc: https://www.tutorialspoint.com/java/java_documentation.htm
- *tutorial: https://www.javaguides.net/2022/03/spring-boot-unit-testing-crud-rest-api-with-junit-and-mockito.html
- Error Solution - Lombok:https://stackoverflow.com/questions/50991619/the-method-builder-is-undefined-for-the-type-builderexample
+ * Tutorial: https://www.javaguides.net/2022/03/spring-boot-unit-testing-crud-rest-api-with-junit-and-mockito.html
+ * Error Solution - Lombok:https://stackoverflow.com/questions/50991619/the-method-builder-is-undefined-for-the-type-builderexample
  */
